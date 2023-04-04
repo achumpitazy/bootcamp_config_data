@@ -1,14 +1,6 @@
-#server:
-#  port: 8089
-#spring:
-#  data:
-#    mongodb:
-#      uri: mongodb://localhost:27017/yanki
+server:
+  port: 8089
 spring:
-  application:
-    name: yanki
-  cloud:
-    config:
-      uri: http://localhost:8888
-      username: consumer
-      password: consumer
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/yanki
